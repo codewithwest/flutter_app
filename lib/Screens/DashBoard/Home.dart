@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:west_flutter/theme/theme.dart';
 
 import '../../data/AppDev.dart';
 import '../../data/DeckTech.dart';
 import '../../data/DeskDev.dart';
 import '../../data/WebDev.dart';
+import '../../theme/theme.dart';
 import 'Profile.dart';
 
 class home extends StatelessWidget {

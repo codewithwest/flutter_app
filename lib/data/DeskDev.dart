@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:west_flutter/theme/theme.dart';
+
+import '../theme/theme.dart';
 
 class deskDev extends StatelessWidget {
   Future<String> loadAsset() async {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:west_flutter/theme/theme.dart';
 
+import '../theme/theme.dart';
 import 'DashBoard/Favourites.dart';
 import 'DashBoard/Feed.dart';
 import 'DashBoard/Home.dart';

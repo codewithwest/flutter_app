@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:west_flutter/theme/theme.dart';
+
+import '../../theme/theme.dart';
+
 /*
 class feed extends StatelessWidget {
   // This widget is the root of your application.

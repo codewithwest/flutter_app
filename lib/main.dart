@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:west_flutter/theme/theme.dart';
+
 import 'Screens/LoginPage.dart';
-import 'Screens/DashBoard.dart';
+import 'theme/theme.dart';
 
 void main() => runApp(MyApp());
 
