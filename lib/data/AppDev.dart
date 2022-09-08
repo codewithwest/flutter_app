@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
-import '../theme/theme.dart';
-
 class appDev extends StatelessWidget {
   Future<String> loadAsset() async {
     return await rootBundle.loadString('assets/config.json');
@@ -12,12 +10,7 @@ class appDev extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Mobile Development Content',
-      theme: theme(),
-      home: const CarouselSlidere(),
-      //debugShowCheckedModeBanner: false,
-    );
+    return const CarouselSlidere();
   }
 }
 
@@ -27,10 +20,6 @@ class CarouselSlidere extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Mobile Development Content'),
-        centerTitle: true,
-      ),
       body: ListView(children: [
         CarouselSlider(
           items: [

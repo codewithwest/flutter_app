@@ -16,7 +16,7 @@ class DashBoard extends StatefulWidget {
 class _DashBoardState extends State<DashBoard> {
   final List<Widget> _screens = [
     // Content for Home tabr
-    home(),
+    const ContentDisplayScreen(),
     feed(),
     favourites(),
     settings(),
